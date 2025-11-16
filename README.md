@@ -385,3 +385,22 @@ These numbers, plus the stacked visuals, are ready to go directly into your assi
 
   * Per-prompt metrics show how sensitive performance is to the exact wording of the prompt.
   * Timing reports demonstrate runtime and feasibility for deployment.
+
+## Model Citation
+
+This project uses the **CLIPSeg** model from the following paper:
+
+**CLIPSeg: Image Segmentation Using Text and Image Prompts**  
+Robin Rombach, Patrick Esser, Björn Ommer  
+*arXiv:2204.03645*, 2022  
+[[Paper]](https://arxiv.org/abs/2204.03645)
+
+If you use this repository, please cite:
+
+```bibtex
+@article{romb2022clipseg,
+  title={CLIPSeg: Image Segmentation Using Text and Image Prompts},
+  author={Rombach, Robin and Esser, Patrick and Ommer, Bj{\"o}rn},
+  journal={arXiv preprint arXiv:2204.03645},
+  year={2022}
+}
