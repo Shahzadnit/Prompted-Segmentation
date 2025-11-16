@@ -325,7 +325,7 @@ Prompts used:
 Per-prompt Metrics - Dataset: cracks - Split: val_final_full
 ================================================================================
 
-Prompt                                   |     Loss |     mIoU |     Dice
+Prompt                                   |   Loss |   mIoU |  Dice
 --------------------------------------------------------------------------------
 segment crack                            | 0.0891 | 0.5222 | 0.6111
 segment wall crack                       | 0.1038 | 0.5766 | 0.6561
@@ -360,7 +360,7 @@ Prompts used:
 Per-prompt Metrics - Dataset: taping - Split: val_eval
 ================================================================================
 
-Prompt                                   |     Loss |     mIoU |     Dice
+Prompt                                   |   Loss |   mIoU |  Dice
 --------------------------------------------------------------------------------
 segment taping area                      | 0.2020 | 0.5405 | 0.6834
 segment joint/tape                       | 0.3026 | 0.4088 | 0.5548
