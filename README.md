@@ -148,7 +148,7 @@ python -m src.main \
   --output_root ./outputs \
   --batch_size 4 \
   --image_size 224 \
-  --epochs 10 \
+  --epochs 50 \
   --lr 1e-5
 ```
 
@@ -162,7 +162,7 @@ python -m src.main \
   --output_root ./outputs \
   --batch_size 4 \
   --image_size 224 \
-  --epochs 10 \
+  --epochs 50 \
   --lr 1e-5
 ```
 
@@ -293,7 +293,7 @@ Per-prompt metrics for each run (loss, mIoU, Dice), logged for different phases:
 
 ---
 
-## 6. Example Results
+## 6. Results
 
 Below are example statistics from one run of the full pipeline.
 
@@ -306,7 +306,9 @@ Below are example statistics from one run of the full pipeline.
 Inference Timing Report - Dataset: cracks
 ================================================================================
 
-Number of images: 35
+Train images: 1431
+Val images:   34
+Test images:  35
 Number of prompts: 2
 Total inference time (all prompts): 2.264 s
 Average time per image per prompt: 0.032341 s
@@ -339,8 +341,8 @@ segment wall crack                       | 0.1038 | 0.5766 | 0.6561
 ================================================================================
 Inference Timing Report - Dataset: taping
 ================================================================================
-
-Number of images: 202
+Train images: 820
+Val images:   202
 Number of prompts: 3
 Total inference time (all prompts): 17.021 s
 Average time per image per prompt: 0.028087 s
