@@ -372,8 +372,6 @@ These numbers, plus the stacked visuals, are ready to go directly into your assi
 ---
 
 
----
-
 ## 🚀 Visual Samples
 
 ### **Taping Dataset**
