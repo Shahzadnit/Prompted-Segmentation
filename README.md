@@ -381,11 +381,11 @@ Each panel shows:
 
 | Sample 1 | Sample 2 |
 |---------|----------|
-| ![](taping_1.png) | ![](taping_2.png) |
+| ![](img/taping_1.png) | ![](img/taping_2.png) |
 
 | Sample 3 | Sample 4 |
 |---------|----------|
-| ![](taping_3.png) | ![](taping_4.png) |
+| ![](img/taping_3.png) | ![](img/taping_4.png) |
 
 ---
 
@@ -396,11 +396,11 @@ Each panel shows:
 
 | Sample 1 | Sample 2 |
 |---------|----------|
-| ![](crack_1.png) | ![](crack_2.png) |
+| ![](img/crack_1.png) | ![](img/crack_2.png) |
 
 | Sample 3 | Sample 4 |
 |---------|----------|
-| ![](crack_3.png) | ![](crack_4.png) |
+| ![](img/crack_3.png) | ![](img/crack_4.png) |
 
 ---
 
