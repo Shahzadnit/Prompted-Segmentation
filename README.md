@@ -371,6 +371,41 @@ These numbers, plus the stacked visuals, are ready to go directly into your assi
 
 ---
 
+
+---
+
+## 🚀 Visual Samples
+
+### **Taping Dataset**
+
+Each panel shows:  
+**Input | Ground Truth | segment taping area | segment joint/tape | segment drywall seam**
+
+| Sample 1 | Sample 2 |
+|---------|----------|
+| ![](taping_1.png) | ![](taping_2.png) |
+
+| Sample 3 | Sample 4 |
+|---------|----------|
+| ![](taping_3.png) | ![](taping_4.png) |
+
+---
+
+### **Cracks Dataset**
+
+Each panel shows:  
+**Input | Ground Truth | segment crack | segment wall crack**
+
+| Sample 1 | Sample 2 |
+|---------|----------|
+| ![](crack_1.png) | ![](crack_2.png) |
+
+| Sample 3 | Sample 4 |
+|---------|----------|
+| ![](crack_3.png) | ![](crack_4.png) |
+
+---
+
 ## 7. Notes for the Assignment Report
 
 * **Data preprocessing**:
