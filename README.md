@@ -386,21 +386,51 @@ These numbers, plus the stacked visuals, are ready to go directly into your assi
   * Per-prompt metrics show how sensitive performance is to the exact wording of the prompt.
   * Timing reports demonstrate runtime and feasibility for deployment.
 
-## Model Citation
 
-This project uses the **CLIPSeg** model from the following paper:
+## References
 
-**CLIPSeg: Image Segmentation Using Text and Image Prompts**  
-Robin Rombach, Patrick Esser, Björn Ommer  
-*arXiv:2204.03645*, 2022  
-[[Paper]](https://arxiv.org/abs/2204.03645)
+We used the following foundational models and resources in this project:
 
-If you use this repository, please cite:
+### CLIPSeg (Segmentation Backbone)
+Lüddecke, T., & Wörtwein, T. (2022).  
+**"CLIPSeg: Image Segmentation Using Text and Image Prompts."**  
+CVPR 2022.  
+Paper: https://arxiv.org/abs/2111.15490  
+GitHub: https://github.com/timojl/clipseg
 
-```bibtex
-@article{romb2022clipseg,
+```
+@inproceedings{lueddecke2022clipseg,
   title={CLIPSeg: Image Segmentation Using Text and Image Prompts},
-  author={Rombach, Robin and Esser, Patrick and Ommer, Bj{\"o}rn},
-  journal={arXiv preprint arXiv:2204.03645},
+  author={L{"u}ddecke, Timo and W{"o}rtwein, Theodor},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   year={2022}
+}
+```
+
+### CLIP (Text–Image Encoder)
+Radford, A. et al. (2021).  
+**"Learning Transferable Visual Models From Natural Language Supervision."**  
+ICML 2021.  
+Paper: https://arxiv.org/abs/2103.00020
+
+```
+@inproceedings{radford2021learning,
+  title={Learning Transferable Visual Models From Natural Language Supervision},
+  author={Radford, Alec and Kim, Jong Wook and Hallacy, Chris and Ramesh, Aditya and others},
+  booktitle={International Conference on Machine Learning},
+  year={2021}
+}
+```
+
+### HuggingFace Model
+Model used: `CIDAS/clipseg-rd64-refined`  
+https://huggingface.co/CIDAS/clipseg-rd64-refined
+
+```
+@misc{wolf2020transformers,
+  title={Transformers: State-of-the-Art Natural Language Processing},
+  author={Wolf, Thomas and others},
+  year={2020},
+  eprint={1910.03771},
+  archivePrefix={arXiv}
 }
