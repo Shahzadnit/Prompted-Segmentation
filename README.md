@@ -428,7 +428,7 @@ We used the following foundational models and resources in this project:
 Lüddecke, T., & Wörtwein, T. (2022).  
 **"CLIPSeg: Image Segmentation Using Text and Image Prompts."**  
 CVPR 2022.  
-Paper: https://arxiv.org/abs/2111.15490  
+Paper: https://arxiv.org/pdf/2112.10003  
 GitHub: https://github.com/timojl/clipseg
 
 ```
